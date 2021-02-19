@@ -25,8 +25,8 @@ public class Programmers_42576 {
 	public static void main(String[] args) {
 		Programmers_42576 solution = new Programmers_42576();
 
-		String[] participant = { "marina", "josipa", "nikola", "vinko", "filipa" };
-		String[] completion = { "josipa", "filipa", "marina", "nikola" };
+		String[] participant = { "mislav", "stanko", "mislav", "ana"};
+		String[] completion = { "stanko", "ana", "mislav" };
 
 		solution.solution(participant, completion);
 	}
