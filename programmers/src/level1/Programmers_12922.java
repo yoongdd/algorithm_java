@@ -4,15 +4,8 @@ package level1;
 public class Programmers_12922 {
 
 	public String solution(int n) {
-		String answer = "";
-
-		for (int i = 0; i < n; i++) {
-			if (i%2 != 1) answer += "수";
-			else answer += "박";
-		}
-
-		System.out.println(answer);
-		return answer;
+		
+		return new String(new char[n/2+1]).replace("\0", "수박").substring(0, n);
 	}
 
 	public static void main(String[] args) {
