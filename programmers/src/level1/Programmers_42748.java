@@ -22,6 +22,7 @@ public class Programmers_42748 {
 				tmp[n] = array[m];
 				n++;
 			}
+			
 			Arrays.sort(tmp);
 			answer[l] = tmp[k];
 		}
