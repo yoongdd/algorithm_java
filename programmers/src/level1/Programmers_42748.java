@@ -16,8 +16,8 @@ public class Programmers_42748 {
 			int k = commands[l][2]-1;
 			
 			int[] tmp= new int[j-i+1];
-			
 			int n = 0;
+			
 			for(int m = i; m <= j ; m++) {
 				tmp[n] = array[m];
 				n++;
